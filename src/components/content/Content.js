@@ -5,11 +5,13 @@ import Part3 from './Part3'
 
 function Content(props) {
   console.log(props);
+  const {parts} = props;
+
     return (
         <div>
-          <Part1 part1={props.part1}/>  
-          <Part2 part2={props.part2}/>
-          <Part3 part3={props.part3}/>
+          <Part1 part={parts[0]}/>  
+          <Part2 part={parts[1]}/>
+          <Part3 part={parts[2]}/>
         </div>
     )
 }

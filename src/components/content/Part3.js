@@ -1,10 +1,10 @@
 import React from 'react'
 
 function Part3(props) {
-    const {part3} = props;
+    const {part} = props;
     return (
         <>
-          <p>{part3.name}: {part3.exercises}</p>  
+          <p>{part.name}: {part.exercises}</p>  
         </>
     )
 }
